@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pro-Serve</title>
+    <link rel="stylesheet" href="SRC/Css/styles.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">
+            <img src="SRC/Img/logo.png" alt="Logo" class="logo" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://wa.me/5516997661770" target="_blank">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#produtos">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#localizacao">Localização</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="header">
+        <h1 class="title">Pro-Serve</h1>
+        <h2 class="subtitle">Soluções Tecnológicas</h2>
+        <!-- Button trigger modal -->
+        <div class="button-container">
+            <div class="btn-custom">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><b>Faça seu Cadastro</b></a>
+            </div>
+        </div>
+    </div>
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Informe seus dados</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="nomeCompleto" class="form-label">Nome completo</label>
+                        <input type="text" class="form-control" id="nomeCompleto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">Número de telefone</label>
+                        <input type="tel" class="form-control" id="telefone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="cpf" class="form-label">CPF</label>
+                        <input type="text" class="form-control" id="cpf">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+                <button type="button" class="btn btn-primary">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+    
+
+    <hr>
+    <div class="container">
+        <h2 class="section-title">Quem Somos Nós</h2><br>
+        <p class="section-text">
+            Somos a Pro-Serve, uma empresa líder no mercado de tecnologia, especializada em oferecer soluções inovadoras e personalizadas para empresas e indivíduos em todo o mundo. Fundada em 2005, nossa missão é capacitar nossos clientes a alcançar o sucesso por meio da tecnologia, fornecendo produtos e serviços de alta qualidade que impulsionam o progresso e o crescimento.
+            <br>
+            <br>
+            Nossa visão é ser reconhecidos como referência em inovação, excelência e compromisso com o sucesso de nossos clientes. Nosso sucesso é baseado em valores fundamentais, como inovação constante, excelência em todos os aspectos, integridade em todas as interações, foco no cliente e responsabilidade social.
+            <br>
+            <br>
+            Oferecemos uma ampla gama de serviços e soluções tecnológicas, incluindo desenvolvimento de software personalizado, consultoria em TI, desenvolvimento de aplicativos móveis, design de interfaces de usuário, integração de sistemas, gerenciamento de projetos de TI, segurança da informação, entre outros.
+            <br>
+            <br>
+            O que nos diferencia é nossa experiência e expertise, nossa abordagem personalizada para cada cliente, nosso compromisso inabalável com a qualidade e nosso atendimento ao cliente excepcional. Estamos comprometidos em ajudar nossos clientes a alcançar seus objetivos de negócios, fornecendo soluções tecnológicas sob medida que impulsionam o sucesso e a inovação. Entre em contato conosco hoje mesmo e descubra como podemos transformar sua visão em realidade.</div>
+
+    <hr>
+    <div id="servicos"></div>
+    <div class="container">
+        <h2 class="section-title">Nossos Serviços</h2>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="SRC/Img/AnaliseSistemas.jpeg" class="card-img-top" alt="AnaliseSistemas">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Análise de Sistemas</b></h5>
+                        <p class="card-text">Realizamos análise detalhada de sistemas existentes para identificar melhorias e otimizações. Nossa equipe especializada oferece soluções personalizadas para aumentar a eficiência e o desempenho dos seus sistemas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="SRC/Img/ConsultoriaTI.jpeg" class="card-img-top" alt="ConsultoriaTi">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Consultoria em TI</b></h5>
+                        <p class="card-text">Oferecemos consultoria especializada em TI para sua empresa a alcançar seus objetivos. Desde planejamento de TI até gestão de projetos, nossa equipe está preparada para oferecer soluções personalizadas e eficazes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="SRC/Img/AnaliseDados.jpeg" class="card-img-top" alt="AnaliseDados">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Análise de Dados</b></h5>
+                        <p class="card-text">Realizamos análise avançada de dados para extrair insights que impulsionam decisões. Utilizamos ferramentas e técnicas para transformar dados em informações, ajudando sua empresa a otimizar processos e alcançar resultados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<hr>
+<div id="produtos"></div>
+    <div class="container">
+        <h2 class="section-title">Nossos Produtos</h2>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="SRC/Img/Infraestrutura.jpg" class="card-img-top" alt="Infraestrutura">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Infraestrutura</b></h5>
+                        <p class="card-text">Projetamos e implementamos soluções de infraestrutura para suas operações comerciais. Desde redes até segurança de dados, garantimos que sua infraestrutura seja confiável e segura.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="SRC/Img/Desenvolvimento.jpeg" class="card-img-top" alt="Desenvolvimento">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Desenvolvimento</b></h5>
+                        <p class="card-text">Desenvolvemos sites e aplicativos personalizados para atender às necessidades específicas do seu negócio. Criamos soluções digitais que são intuitivas, responsivas e de alto desempenho.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 19rem;">
+                    <img src="SRC/Img/TecEmergente.jpeg" class="card-img-top" alt="TecnologiaEmergente">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Tecnologia Emergente</b></h5>
+                        <p class="card-text">Mantenha-se à frente da concorrência com nossa tecnologia emergente, incluindo inteligência artificial, machine learning, IoT, etc. Ajudamos você a implementar as últimas inovações tecnológicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="localizacao"></div>
+<div class="container mt-5">
+<div class="card">
+<div class="card-body">
+    <h5 class="card-title">Nossa Localização</h5>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5686812901713!2d-47.80064452073963!3d-21.20928653016898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9b8abe0537cc1%3A0x443a578977e7e330!2sFaculdade%20REGES%20de%20Ribeir%C3%A3o%20Preto!5e0!3m2!1spt-BR!2sbr!4v1717423558617!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</div>
+<div class="card-footer text-center">
+    <p>Endereço: Rua Benjamim Anderson Stauffer 801, Ribeirão Preto, SP</p>
+</div>
+</div>
+    </div>  
+    <hr>
+  
+    <footer class="mt-5">
+        <div class="footer-container">
+            <p>Acesse nossas redes sociais:</p>
+            <div class="social-icons">
+                <a href="NAO TENHO FACEBOOK"><img src="SRC/Img/facebook.png" alt="Facebook" target="_blank"></a>
+                <a href="https://wa.me/5516997661770"><img src="SRC/Img/whatsapp.png" alt="Whatsapp" target="_blank"></a>
+                <a href="https://www.instagram.com/dantas.016/"><img src="SRC/Img/instagram.png" alt="Instagram" target="_blank"></a>
+             
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <div class="gtranslate_wrapper"></div>
+        <script>window.gtranslateSettings = {"default_language":"pt-br","languages":["pt","fr","de","es","en"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","flag_style":"3d"}</script>
+        <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+        
+        <script>
+            document.querySelectorAll('.nav-link[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+        
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+    
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
